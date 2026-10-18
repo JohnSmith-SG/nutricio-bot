@@ -1,0 +1,3 @@
+# переводы строк — как на сервере (Linux), независимо от Windows
+* text=auto eol=lf
+*.png binary

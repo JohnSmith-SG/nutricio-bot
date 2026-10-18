@@ -1,0 +1,21 @@
+[Unit]
+Description=Nutricio calorie Telegram bot (@Nutricio_OlegTsu_Bot)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=nutribot
+Group=nutribot
+WorkingDirectory=/opt/nutricio-bot
+Environment=BOT_TOKEN_FILE=/opt/nutricio-bot/secrets/bot.token
+Environment=PROXYAPI_KEY_FILE=/opt/nutricio-bot/secrets/proxyapi.key
+Environment=YOUTUBE_API_KEY_FILE=/opt/nutricio-bot/secrets/youtube-api.key
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/opt/nutricio-bot/.venv/bin/python /opt/nutricio-bot/bot.py
+Restart=always
+RestartSec=10
+MemoryMax=300M
+
+[Install]
+WantedBy=multi-user.target

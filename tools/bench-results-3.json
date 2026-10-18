@@ -1,0 +1,358 @@
+[
+ {
+  "model": "openai/gpt-4o-mini",
+  "error": "KeyError: 'kcal'"
+ },
+ {
+  "model": "openai/gpt-4.1-mini",
+  "seconds": 45.4,
+  "input_tokens": 403,
+  "output_tokens": 5571,
+  "cost_rub": 2.34,
+  "avg_deviation_pct": 39.6,
+  "max_deviation_pct": 45.8,
+  "unique_dishes": 21,
+  "scaled_days": [
+   1.5,
+   1.66,
+   1.58,
+   1.82,
+   1.58,
+   1.84,
+   1.66
+  ],
+  "macro_mismatch_pct": 12.6,
+  "implausible": [],
+  "sample_day": {
+   "day": "Понедельник",
+   "meals": [
+    {
+     "meal": "Завтрак",
+     "items": [
+      {
+       "name": "Овсянка на молоке",
+       "grams": 374,
+       "kcal": 419,
+       "protein": 15,
+       "fat": 12,
+       "carbs": 63
+      },
+      {
+       "name": "Яблоко",
+       "grams": 224,
+       "kcal": 117,
+       "protein": 0,
+       "fat": 0,
+       "carbs": 31
+      },
+      {
+       "name": "Зелёный чай без сахара",
+       "grams": 299,
+       "kcal": 3,
+       "protein": 0,
+       "fat": 0,
+       "carbs": 0
+      }
+     ],
+     "kcal": 539,
+     "protein": 15,
+     "fat": 12,
+     "carbs": 94
+    },
+    {
+     "meal": "Обед",
+     "items": [
+      {
+       "name": "Курица терияки (филе курицы, соус терияки)",
+       "grams": 269,
+       "kcal": 449,
+       "protein": 54,
+       "fat": 12,
+       "carbs": 15
+      },
+      {
+       "name": "Рис отварной",
+       "grams": 224,
+       "kcal": 292,
+       "protein": 6,
+       "fat": 1,
+       "carbs": 64
+      },
+      {
+       "name": "Овощи на пару (брокколи, морковь)",
+       "grams": 224,
+       "kcal": 90,
+       "protein": 7,
+       "fat": 0,
+       "carbs": 15
+      },
+      {
+       "name": "Вода без газа",
+       "grams": 299,
+       "kcal": 0,
+       "protein": 0,
+       "fat": 0,
+       "carbs": 0
+      }
+     ],
+     "kcal": 831,
+     "protein": 67,
+     "fat": 13,
+     "carbs": 94
+    },
+    {
+     "meal": "Перекус",
+     "items": [
+      {
+       "name": "Греческий салат (огурцы, помидоры, сыр фета, оливки, оливковое масло)",
+       "grams": 299,
+       "kcal": 479,
+       "protein": 15,
+       "fat": 42,
+       "carbs": 15
+      },
+      {
+       "name": "Чай зелёный без сахара",
+       "grams": 299,
+       "kcal": 3,
+       "protein": 0,
+       "fat": 0,
+       "carbs": 0
+      }
+     ],
+     "kcal": 482,
+     "protein": 15,
+     "fat": 42,
+     "carbs": 15
+    },
+    {
+     "meal": "Ужин",
+     "items": [
+      {
+       "name": "Лосось на гриле",
+       "grams": 224,
+       "kcal": 419,
+       "protein": 51,
+       "fat": 27,
+       "carbs": 0
+      },
+      {
+       "name": "Салат из свежих овощей (помидоры, огурцы, зелень, лимонный сок)",
+       "grams": 224,
+       "kcal": 75,
+       "protein": 3,
+       "fat": 1,
+       "carbs": 12
+      },
+      {
+       "name": "Вода без газа",
+       "grams": 299,
+       "kcal": 0,
+       "protein": 0,
+       "fat": 0,
+       "carbs": 0
+      }
+     ],
+     "kcal": 494,
+     "protein": 54,
+     "fat": 28,
+     "carbs": 12
+    }
+   ],
+   "model_kcal": 1567,
+   "scaled": 1.5,
+   "kcal": 2346,
+   "protein": 151,
+   "fat": 95,
+   "carbs": 215
+  }
+ },
+ {
+  "model": "deepseek/deepseek-chat-v3.1",
+  "error": "APITimeoutError: Request timed out."
+ },
+ {
+  "model": "deepseek/deepseek-v3.2",
+  "seconds": 86.2,
+  "input_tokens": 457,
+  "output_tokens": 5825,
+  "cost_rub": 0.33,
+  "avg_deviation_pct": 36.1,
+  "max_deviation_pct": 43.9,
+  "unique_dishes": 27,
+  "scaled_days": [
+   1.59,
+   1.45,
+   1.59,
+   1.67,
+   1.43,
+   1.5,
+   1.78
+  ],
+  "macro_mismatch_pct": 18.3,
+  "implausible": [
+   "Хлебцы цельнозерновые 48 г = 167 ккал",
+   "Хлебцы цельнозерновые 48 г = 167 ккал",
+   "Хлебцы цельнозерновые 30 г = 105 ккал"
+  ],
+  "sample_day": {
+   "day": "Понедельник",
+   "meals": [
+    {
+     "meal": "Завтрак",
+     "items": [
+      {
+       "name": "Овсянка на молоке",
+       "grams": 398,
+       "kcal": 445,
+       "protein": 16,
+       "fat": 13,
+       "carbs": 67
+      },
+      {
+       "name": "Банан",
+       "grams": 191,
+       "kcal": 170,
+       "protein": 2,
+       "fat": 0,
+       "carbs": 43
+      },
+      {
+       "name": "Чай черный без сахара",
+       "grams": 318,
+       "kcal": 3,
+       "protein": 0,
+       "fat": 0,
+       "carbs": 0
+      }
+     ],
+     "kcal": 618,
+     "protein": 18,
+     "fat": 13,
+     "carbs": 110
+    },
+    {
+     "meal": "Обед",
+     "items": [
+      {
+       "name": "Курица терияки (грудка)",
+       "grams": 239,
+       "kcal": 358,
+       "protein": 57,
+       "fat": 8,
+       "carbs": 10
+      },
+      {
+       "name": "Рис отварной",
+       "grams": 239,
+       "kcal": 310,
+       "protein": 6,
+       "fat": 2,
+       "carbs": 68
+      },
+      {
+       "name": "Салат из огурцов и помидоров с маслом",
+       "grams": 239,
+       "kcal": 143,
+       "protein": 3,
+       "fat": 10,
+       "carbs": 11
+      },
+      {
+       "name": "Хлеб ржаной",
+       "grams": 80,
+       "kcal": 167,
+       "protein": 6,
+       "fat": 2,
+       "carbs": 33
+      },
+      {
+       "name": "Вода",
+       "grams": 398,
+       "kcal": 0,
+       "protein": 0,
+       "fat": 0,
+       "carbs": 0
+      }
+     ],
+     "kcal": 978,
+     "protein": 72,
+     "fat": 22,
+     "carbs": 122
+    },
+    {
+     "meal": "Перекус",
+     "items": [
+      {
+       "name": "Яблоко",
+       "grams": 239,
+       "kcal": 124,
+       "protein": 0,
+       "fat": 0,
+       "carbs": 32
+      },
+      {
+       "name": "Кефир 1%",
+       "grams": 318,
+       "kcal": 127,
+       "protein": 10,
+       "fat": 3,
+       "carbs": 16
+      }
+     ],
+     "kcal": 251,
+     "protein": 10,
+     "fat": 3,
+     "carbs": 48
+    },
+    {
+     "meal": "Ужин",
+     "items": [
+      {
+       "name": "Творог 5%",
+       "grams": 239,
+       "kcal": 231,
+       "protein": 29,
+       "fat": 11,
+       "carbs": 5
+      },
+      {
+       "name": "Салат из свежей капусты и моркови",
+       "grams": 239,
+       "kcal": 95,
+       "protein": 3,
+       "fat": 5,
+       "carbs": 13
+      },
+      {
+       "name": "Хлебцы цельнозерновые",
+       "grams": 48,
+       "kcal": 167,
+       "protein": 6,
+       "fat": 3,
+       "carbs": 29
+      },
+      {
+       "name": "Чай травяной",
+       "grams": 318,
+       "kcal": 3,
+       "protein": 0,
+       "fat": 0,
+       "carbs": 0
+      }
+     ],
+     "kcal": 496,
+     "protein": 38,
+     "fat": 19,
+     "carbs": 47
+    }
+   ],
+   "model_kcal": 1474,
+   "scaled": 1.59,
+   "kcal": 2343,
+   "protein": 138,
+   "fat": 57,
+   "carbs": 327
+  }
+ }
+]

@@ -1,0 +1,231 @@
+[
+ {
+  "model": "openai/gpt-4o-mini",
+  "seconds": 25.6,
+  "input_tokens": 308,
+  "output_tokens": 1952,
+  "cost_rub": 0.31,
+  "avg_deviation_pct": 38.5,
+  "max_deviation_pct": 44.6,
+  "unique_dishes": 28,
+  "sample_day": {
+   "day": "Понедельник",
+   "meals": [
+    {
+     "meal": "Завтрак",
+     "dish": "Овсянка с ягодами и медом",
+     "grams": 391,
+     "kcal": 547,
+     "protein": 16,
+     "fat": 9,
+     "carbs": 98
+    },
+    {
+     "meal": "Обед",
+     "dish": "Курица терияки с рисом",
+     "grams": 469,
+     "kcal": 860,
+     "protein": 63,
+     "fat": 23,
+     "carbs": 102
+    },
+    {
+     "meal": "Перекус",
+     "dish": "Яблоко и горсть орехов",
+     "grams": 234,
+     "kcal": 313,
+     "protein": 6,
+     "fat": 22,
+     "carbs": 31
+    },
+    {
+     "meal": "Ужин",
+     "dish": "Запеченная рыба с овощами",
+     "grams": 391,
+     "kcal": 625,
+     "protein": 47,
+     "fat": 31,
+     "carbs": 47
+    }
+   ],
+   "model_kcal": 1500,
+   "scaled": 1.56,
+   "kcal": 2345,
+   "protein": 132,
+   "fat": 85,
+   "carbs": 278
+  }
+ },
+ {
+  "model": "openai/gpt-4.1-mini",
+  "seconds": 17.6,
+  "input_tokens": 308,
+  "output_tokens": 2029,
+  "cost_rub": 0.87,
+  "avg_deviation_pct": 0.0,
+  "max_deviation_pct": 0.2,
+  "unique_dishes": 28,
+  "sample_day": {
+   "day": "Понедельник",
+   "meals": [
+    {
+     "meal": "Завтрак",
+     "dish": "Овсяная каша с ягодами и орехами",
+     "grams": 300,
+     "kcal": 400,
+     "protein": 15,
+     "fat": 10,
+     "carbs": 60
+    },
+    {
+     "meal": "Обед",
+     "dish": "Курица терияки с рисом и овощами",
+     "grams": 350,
+     "kcal": 650,
+     "protein": 50,
+     "fat": 15,
+     "carbs": 70
+    },
+    {
+     "meal": "Перекус",
+     "dish": "Греческий салат с оливковым маслом",
+     "grams": 250,
+     "kcal": 300,
+     "protein": 10,
+     "fat": 20,
+     "carbs": 15
+    },
+    {
+     "meal": "Ужин",
+     "dish": "Тушёные овощи с индейкой",
+     "grams": 300,
+     "kcal": 990,
+     "protein": 78,
+     "fat": 31,
+     "carbs": 116
+    }
+   ],
+   "model_kcal": 2340,
+   "kcal": 2340,
+   "protein": 153,
+   "fat": 76,
+   "carbs": 261
+  }
+ },
+ {
+  "model": "openai/gpt-5-mini",
+  "seconds": 57.0,
+  "input_tokens": 307,
+  "output_tokens": 8250,
+  "cost_rub": 4.28,
+  "avg_deviation_pct": 0.0,
+  "max_deviation_pct": 0.0,
+  "unique_dishes": 28,
+  "sample_day": {
+   "day": "Понедельник",
+   "meals": [
+    {
+     "meal": "Завтрак",
+     "dish": "Овсянка на молоке с бананом и творогом",
+     "grams": 420,
+     "kcal": 600,
+     "protein": 36,
+     "fat": 20,
+     "carbs": 72
+    },
+    {
+     "meal": "Обед",
+     "dish": "Гречка с куриной грудкой и овощами",
+     "grams": 450,
+     "kcal": 800,
+     "protein": 58,
+     "fat": 26,
+     "carbs": 98
+    },
+    {
+     "meal": "Перекус",
+     "dish": "Творог 150 г с мёдом и орехами",
+     "grams": 220,
+     "kcal": 360,
+     "protein": 28,
+     "fat": 18,
+     "carbs": 30
+    },
+    {
+     "meal": "Ужин",
+     "dish": "Курица терияки с рисом и брокколи",
+     "grams": 420,
+     "kcal": 585,
+     "protein": 31,
+     "fat": 12,
+     "carbs": 60
+    }
+   ],
+   "model_kcal": 2345,
+   "kcal": 2345,
+   "protein": 153,
+   "fat": 76,
+   "carbs": 260
+  }
+ },
+ {
+  "model": "deepseek/deepseek-v4-flash",
+  "seconds": 65.7,
+  "input_tokens": 348,
+  "output_tokens": 6516,
+  "cost_rub": 0.27,
+  "avg_deviation_pct": 1.9,
+  "max_deviation_pct": 4.1,
+  "unique_dishes": 28,
+  "sample_day": {
+   "day": "Понедельник",
+   "meals": [
+    {
+     "meal": "Завтрак",
+     "dish": "Творожная запеканка с изюмом",
+     "grams": 250,
+     "kcal": 500,
+     "protein": 40,
+     "fat": 15,
+     "carbs": 45
+    },
+    {
+     "meal": "Обед",
+     "dish": "Курица терияки с рисом и овощами",
+     "grams": 400,
+     "kcal": 800,
+     "protein": 50,
+     "fat": 20,
+     "carbs": 100
+    },
+    {
+     "meal": "Перекус",
+     "dish": "Греческий йогурт с ягодами и мюсли",
+     "grams": 250,
+     "kcal": 300,
+     "protein": 18,
+     "fat": 8,
+     "carbs": 40
+    },
+    {
+     "meal": "Ужин",
+     "dish": "Лосось на гриле с картофелем и овощами",
+     "grams": 350,
+     "kcal": 750,
+     "protein": 45,
+     "fat": 32,
+     "carbs": 70
+    }
+   ],
+   "model_kcal": 2350,
+   "kcal": 2350,
+   "protein": 153,
+   "fat": 75,
+   "carbs": 255
+  }
+ },
+ {
+  "model": "qwen/qwen3.8-flash",
+  "error": "APITimeoutError: Request timed out."
+ }
+]

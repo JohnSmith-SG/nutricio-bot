@@ -1,0 +1,475 @@
+[
+ {
+  "model": "openai/gpt-4o-mini",
+  "seconds": 47.2,
+  "input_tokens": 403,
+  "output_tokens": 4757,
+  "attempts": 1,
+  "cost_rub": 0.75,
+  "avg_deviation_pct": 29.4,
+  "max_deviation_pct": 34.3,
+  "unique_dishes": 22,
+  "scaled_days": [
+   1.3,
+   1.46,
+   1.4,
+   1.52,
+   1.51,
+   1.43,
+   1.32
+  ],
+  "macro_mismatch_pct": 6.4,
+  "implausible": [
+   "Хлеб цельнозерновой 70 г = 182 ккал",
+   "Мюсли 70 г = 252 ккал",
+   "Арахис 45 г = 255 ккал",
+   "Хлеб ржаной 70 г = 182 ккал",
+   "Хлеб цельнозерновой 70 г = 182 ккал",
+   "Мед 30 г = 90 ккал",
+   "Хлеб ржаной 80 г = 208 ккал",
+   "Арахис 45 г = 255 ккал",
+   "Хлеб цельнозерновой 80 г = 208 ккал",
+   "Мюсли 70 г = 252 ккал",
+   "Хлеб ржаной 70 г = 182 ккал",
+   "Арахис 40 г = 227 ккал",
+   "Хлеб цельнозерновой 70 г = 182 ккал"
+  ],
+  "sample_day": {
+   "day": "Понедельник",
+   "meals": [
+    {
+     "meal": "Завтрак",
+     "items": [
+      {
+       "name": "Овсянка на молоке",
+       "grams": 330,
+       "kcal": 370,
+       "protein": 13,
+       "fat": 11,
+       "carbs": 55
+      },
+      {
+       "name": "Яблоко",
+       "grams": 200,
+       "kcal": 107,
+       "protein": 0,
+       "fat": 0,
+       "carbs": 29
+      },
+      {
+       "name": "Чай с лимоном",
+       "grams": 260,
+       "kcal": 0,
+       "protein": 0,
+       "fat": 0,
+       "carbs": 0
+      }
+     ],
+     "kcal": 477,
+     "protein": 13,
+     "fat": 11,
+     "carbs": 84
+    },
+    {
+     "meal": "Обед",
+     "items": [
+      {
+       "name": "Курица терияки",
+       "grams": 260,
+       "kcal": 520,
+       "protein": 52,
+       "fat": 26,
+       "carbs": 13
+      },
+      {
+       "name": "Рис отварной",
+       "grams": 200,
+       "kcal": 220,
+       "protein": 4,
+       "fat": 0,
+       "carbs": 48
+      },
+      {
+       "name": "Огурцы",
+       "grams": 130,
+       "kcal": 21,
+       "protein": 1,
+       "fat": 0,
+       "carbs": 5
+      }
+     ],
+     "kcal": 761,
+     "protein": 57,
+     "fat": 26,
+     "carbs": 66
+    },
+    {
+     "meal": "Перекус",
+     "items": [
+      {
+       "name": "Творог 5%",
+       "grams": 260,
+       "kcal": 208,
+       "protein": 36,
+       "fat": 6,
+       "carbs": 8
+      },
+      {
+       "name": "Грецкие орехи",
+       "grams": 40,
+       "kcal": 267,
+       "protein": 7,
+       "fat": 27,
+       "carbs": 5
+      }
+     ],
+     "kcal": 475,
+     "protein": 43,
+     "fat": 33,
+     "carbs": 13
+    },
+    {
+     "meal": "Ужин",
+     "items": [
+      {
+       "name": "Лосось на гриле",
+       "grams": 200,
+       "kcal": 400,
+       "protein": 40,
+       "fat": 27,
+       "carbs": 0
+      },
+      {
+       "name": "Брокколи на пару",
+       "grams": 260,
+       "kcal": 91,
+       "protein": 6,
+       "fat": 1,
+       "carbs": 18
+      },
+      {
+       "name": "Хлеб цельнозерновой",
+       "grams": 70,
+       "kcal": 182,
+       "protein": 7,
+       "fat": 1,
+       "carbs": 36
+      }
+     ],
+     "kcal": 673,
+     "protein": 53,
+     "fat": 29,
+     "carbs": 54
+    }
+   ],
+   "model_kcal": 1801,
+   "scaled": 1.3,
+   "kcal": 2386,
+   "protein": 166,
+   "fat": 99,
+   "carbs": 217
+  }
+ },
+ {
+  "model": "openai/gpt-4o-mini",
+  "seconds": 25.1,
+  "input_tokens": 403,
+  "output_tokens": 2299,
+  "attempts": 1,
+  "cost_rub": 0.37,
+  "avg_deviation_pct": 35.2,
+  "max_deviation_pct": 39.0,
+  "unique_dishes": 14,
+  "scaled_days": [
+   1.55,
+   1.41,
+   1.64,
+   1.57,
+   1.61,
+   1.45,
+   1.61
+  ],
+  "macro_mismatch_pct": 7.3,
+  "implausible": [
+   "Мёд 35 г = 105 ккал",
+   "Мёд 30 г = 90 ккал",
+   "Мёд 30 г = 90 ккал"
+  ],
+  "sample_day": {
+   "day": "Понедельник",
+   "meals": [
+    {
+     "meal": "Завтрак",
+     "items": [
+      {
+       "name": "Овсянка на молоке",
+       "grams": 390,
+       "kcal": 437,
+       "protein": 16,
+       "fat": 12,
+       "carbs": 66
+      },
+      {
+       "name": "Яблоко",
+       "grams": 230,
+       "kcal": 123,
+       "protein": 0,
+       "fat": 0,
+       "carbs": 32
+      },
+      {
+       "name": "Чай зелёный",
+       "grams": 310,
+       "kcal": 0,
+       "protein": 0,
+       "fat": 0,
+       "carbs": 0
+      }
+     ],
+     "kcal": 560,
+     "protein": 16,
+     "fat": 12,
+     "carbs": 98
+    },
+    {
+     "meal": "Обед",
+     "items": [
+      {
+       "name": "Курица терияки",
+       "grams": 310,
+       "kcal": 620,
+       "protein": 62,
+       "fat": 23,
+       "carbs": 31
+      },
+      {
+       "name": "Рис отварной",
+       "grams": 230,
+       "kcal": 276,
+       "protein": 6,
+       "fat": 0,
+       "carbs": 60
+      }
+     ],
+     "kcal": 896,
+     "protein": 68,
+     "fat": 23,
+     "carbs": 91
+    },
+    {
+     "meal": "Перекус",
+     "items": [
+      {
+       "name": "Греческий салат",
+       "grams": 310,
+       "kcal": 232,
+       "protein": 9,
+       "fat": 16,
+       "carbs": 19
+      },
+      {
+       "name": "Кефир",
+       "grams": 310,
+       "kcal": 108,
+       "protein": 6,
+       "fat": 5,
+       "carbs": 9
+      }
+     ],
+     "kcal": 340,
+     "protein": 15,
+     "fat": 21,
+     "carbs": 28
+    },
+    {
+     "meal": "Ужин",
+     "items": [
+      {
+       "name": "Лосось на гриле",
+       "grams": 230,
+       "kcal": 460,
+       "protein": 46,
+       "fat": 31,
+       "carbs": 0
+      },
+      {
+       "name": "Брокколи отварные",
+       "grams": 230,
+       "kcal": 77,
+       "protein": 6,
+       "fat": 2,
+       "carbs": 15
+      }
+     ],
+     "kcal": 537,
+     "protein": 52,
+     "fat": 33,
+     "carbs": 15
+    }
+   ],
+   "model_kcal": 1510,
+   "scaled": 1.55,
+   "kcal": 2333,
+   "protein": 151,
+   "fat": 89,
+   "carbs": 232
+  }
+ },
+ {
+  "model": "openai/gpt-4o-mini",
+  "seconds": 46.3,
+  "input_tokens": 403,
+  "output_tokens": 4673,
+  "attempts": 1,
+  "cost_rub": 0.74,
+  "avg_deviation_pct": 38.5,
+  "max_deviation_pct": 43.8,
+  "unique_dishes": 24,
+  "scaled_days": [
+   1.49,
+   1.69,
+   1.62,
+   1.55,
+   1.53,
+   1.77,
+   1.78
+  ],
+  "macro_mismatch_pct": 7.4,
+  "implausible": [],
+  "sample_day": {
+   "day": "Понедельник",
+   "meals": [
+    {
+     "meal": "Завтрак",
+     "items": [
+      {
+       "name": "Овсянка на молоке",
+       "grams": 370,
+       "kcal": 414,
+       "protein": 15,
+       "fat": 12,
+       "carbs": 62
+      },
+      {
+       "name": "Яблоко",
+       "grams": 220,
+       "kcal": 117,
+       "protein": 0,
+       "fat": 0,
+       "carbs": 32
+      },
+      {
+       "name": "Чай черный",
+       "grams": 370,
+       "kcal": 0,
+       "protein": 0,
+       "fat": 0,
+       "carbs": 0
+      }
+     ],
+     "kcal": 531,
+     "protein": 15,
+     "fat": 12,
+     "carbs": 94
+    },
+    {
+     "meal": "Обед",
+     "items": [
+      {
+       "name": "Курица терияки",
+       "grams": 300,
+       "kcal": 495,
+       "protein": 45,
+       "fat": 15,
+       "carbs": 30
+      },
+      {
+       "name": "Рис отварной",
+       "grams": 220,
+       "kcal": 264,
+       "protein": 6,
+       "fat": 1,
+       "carbs": 57
+      },
+      {
+       "name": "Огурцы",
+       "grams": 150,
+       "kcal": 24,
+       "protein": 2,
+       "fat": 0,
+       "carbs": 4
+      }
+     ],
+     "kcal": 783,
+     "protein": 53,
+     "fat": 16,
+     "carbs": 91
+    },
+    {
+     "meal": "Перекус",
+     "items": [
+      {
+       "name": "Творог 5%",
+       "grams": 300,
+       "kcal": 240,
+       "protein": 36,
+       "fat": 8,
+       "carbs": 9
+      },
+      {
+       "name": "Груша",
+       "grams": 220,
+       "kcal": 117,
+       "protein": 0,
+       "fat": 0,
+       "carbs": 32
+      }
+     ],
+     "kcal": 357,
+     "protein": 36,
+     "fat": 8,
+     "carbs": 41
+    },
+    {
+     "meal": "Ужин",
+     "items": [
+      {
+       "name": "Лосось на гриле",
+       "grams": 220,
+       "kcal": 411,
+       "protein": 44,
+       "fat": 22,
+       "carbs": 0
+      },
+      {
+       "name": "Брокколи отварные",
+       "grams": 220,
+       "kcal": 73,
+       "protein": 6,
+       "fat": 0,
+       "carbs": 15
+      },
+      {
+       "name": "Хлеб цельнозерновой",
+       "grams": 70,
+       "kcal": 168,
+       "protein": 7,
+       "fat": 3,
+       "carbs": 31
+      }
+     ],
+     "kcal": 652,
+     "protein": 57,
+     "fat": 25,
+     "carbs": 46
+    }
+   ],
+   "model_kcal": 1576,
+   "scaled": 1.49,
+   "kcal": 2323,
+   "protein": 161,
+   "fat": 61,
+   "carbs": 272
+  }
+ }
+]
